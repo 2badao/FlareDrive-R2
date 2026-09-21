@@ -603,8 +603,6 @@ export default {
           window.history.pushState(null, "", url.toString());
         }
         document.title = this.cwd.replace(/.*\/(?!$)|\//g, "") === "/" 
-            ? ""
-            :``;
       },
       immediate: true,
     },
